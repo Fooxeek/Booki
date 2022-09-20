@@ -1,27 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
 
-    body {
-        font-family: 'Raleway', sans-serif;
-    }
 
-    footer {
-        display: flex;
-        justify-content: space-around;
-        background-color: #F2F2F2;
-        margin-top: 30px;
-    }
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    margin-top: 30px;
+}
 
-    .about > a > p:hover{
-        color: #0065FC;
-    }
+.about>a>p:hover {
+    color: #0065FC;
+}
 
-    .accommodation > a > p:hover{
-        color: #0065FC;
-    }
+.accommodation>a>p:hover {
+    color: #0065FC;
+}
 
-    .support > a > p:hover{
-        color: #0065FC;
-    }
+.support>a>p:hover {
+    color: #0065FC;
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     footer {
@@ -30,7 +27,7 @@
         padding-left: 30px;
     }
 
-    .about > h3 {
+    .about>h3 {
         padding-top: 30px;
     }
 }
@@ -43,7 +40,7 @@
         padding-left: 30px;
     }
 
-    .about > h3 {
+    .about>h3 {
         padding-top: 30px;
     }
 }
